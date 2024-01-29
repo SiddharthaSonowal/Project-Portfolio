@@ -406,3 +406,22 @@ button {
             padding: 12vw 0vw 0 0vw;
         }
     }
+    @media (max-width:500px) {
+        .photo img {
+           margin-top: 14vw;
+           width: 65%;
+           height: 80%;
+       }
+   }
+
+    @media (max-width:400px) {
+       .photo img {
+           margin-top: 20vw;
+           width: 65%;
+           height: 80%;
+       }
+       .text h2 {
+           font-size: 3vmax;
+      }
+    }
+   
